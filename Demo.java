@@ -1,33 +1,21 @@
 import java.util.Scanner;
 public class Demo{
     public static void main(String[] argus){
-        Scanner scanner = new Scanner(System.in); 
-        // System.out.print("Enter thhe Number of a:");
-        // int a = scanner.nextInt();
-        // System.out.print("Enter the number of b:");
-        // int b = scanner.nextInt();  
-        // if(a>b){
-        //     System.out.println("a is greater than b");
-        // }else if(b>a)
-        //     {
-        //         System.out.println("b is grater than a ");
-        //     }else{
-        //         System.out.println("They are both Equal");
-                
-        //     }    
-        System.out.println("Are you Student ? (true/false) :");
-        boolean student = scanner.nextBoolean();
-        System.out.println("you are a student :" + student);
-        if(student){
-            System.out.println("he is a topper");
-        }
-        else{
-            System.out.println("He is God ");
-        }
+       // Area of triangle
+        Scanner scanner = new Scanner(System.in);
+        double base = 0;
+        double height = 0;
+        double area = 0;
+        System.out.print("enter the base of the triangle: ");
+         base = scanner.nextDouble();
+         scanner.nextLine();
+         System.out.print("Enter the height of the triangele: ");
+         height = scanner.nextDouble();
+         scanner.nextLine();
+         area =0.5*base*height;
+         System.out.println("The area of the triangle is: " + area);
 
-
-
-        scanner.close();
+       scanner.close();
 
     }
 }
