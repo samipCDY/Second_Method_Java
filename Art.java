@@ -5,7 +5,7 @@ public class Art {
         // Arithmetic operation
         Scanner scanner = new Scanner(System.in);
         int x= 10;
-        int y=5;
+        // int y=5;
         // int z;
 
         // z=x*y;
@@ -20,7 +20,14 @@ public class Art {
         //x -=y;
         //x *=y; 
         //x /=y;
-        x %=y;
+        //Increment and Decrement operator
+        // x++;
+        // x++;
+        // x++;
+        // Drecrese
+        x--;
+        x--;
+        x--;
         System.out.println(x);
 
         scanner.close();
