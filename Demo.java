@@ -8,10 +8,8 @@ public class Demo{
         double area = 0;
         System.out.print("enter the base of the triangle: ");
          base = scanner.nextDouble();
-         scanner.nextLine();
          System.out.print("Enter the height of the triangele: ");
          height = scanner.nextDouble();
-         scanner.nextLine();
          area =0.5*base*height;
          System.out.println("The area of the triangle is: " + area);
 
