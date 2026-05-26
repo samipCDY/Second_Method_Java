@@ -3,6 +3,8 @@ public class shop {
     public static void main(String[] argus){
         Scanner scanner = new Scanner(System.in);
 
+        // Shop mart program
+
         String item;
         Double price;
         int quantity;

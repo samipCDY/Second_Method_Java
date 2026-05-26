@@ -1,6 +1,8 @@
 import java.util.Scanner;
 public class MADlib {
 public static void main(String[] argus){
+
+    // Game
     Scanner scanner = new Scanner(System.in);
 
     String adjective1;
