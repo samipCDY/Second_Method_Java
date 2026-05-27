@@ -14,9 +14,9 @@ public class area {
         cricumference = 2 * Math.PI * radius;
         area = Math.PI * Math.pow(radius, 2);
         volume = (4.0/3.0) * Math.PI * Math.pow(radius,3);
-        System.out.println("Circumference of the circle: " + cricumference);
-        System.out.println("Area of the circle: " + area);
-        System.out.println("Volume of the sphere: " + volume);
+        System.out.println("Circumference of the circle: " + cricumference  + "cm");
+        System.out.println("Area of the circle: " + area + "cm^2") ;
+        System.out.println("Volume of the sphere: " + volume + "cm^3");
         scanner.close();
     }
     
